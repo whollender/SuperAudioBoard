@@ -9,5 +9,4 @@ Not for commercial use.
 I don't have a lot of documentation written up at the moment, so the best places to start would be:
 * the [forum thread](https://forum.pjrc.com/threads/27215-24-bit-audio-boards) describing the board and its development
 * the [schematic](https://github.com/whollender/SuperAudioBoard/blob/master/SuperAudioBoard_Schematic.pdf)
-* the [BOM](https://github.com/whollender/SuperAudioBoard/blob/master/SuperAudioBoard_BOM.csv).
-
+* the [BOM](https://github.com/whollender/SuperAudioBoard/blob/master/SuperAudioBoard_BOM.csv)
