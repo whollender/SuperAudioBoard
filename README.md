@@ -6,4 +6,8 @@ Licensed under Creative commons license CC-BY-SA-NC v4.0 (See LICENSE.md file fo
 Not for commercial use.
 
 
-I don't have a lot of documentation written up at the moment, but the best place to start would be the [schematic](https://github.com/whollender/SuperAudioBoard/blob/master/SuperAudioBoard_Schematic.pdf), and the [BOM](https://github.com/whollender/SuperAudioBoard/blob/master/SuperAudioBoard_BOM.csv).
+I don't have a lot of documentation written up at the moment, so the best places to start would be:
+* the [forum thread](https://forum.pjrc.com/threads/27215-24-bit-audio-boards) describing the board and its development
+* the [schematic](https://github.com/whollender/SuperAudioBoard/blob/master/SuperAudioBoard_Schematic.pdf)
+* the [BOM](https://github.com/whollender/SuperAudioBoard/blob/master/SuperAudioBoard_BOM.csv).
+
