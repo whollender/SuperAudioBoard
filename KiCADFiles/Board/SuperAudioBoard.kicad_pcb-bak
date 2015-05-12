@@ -6253,7 +6253,7 @@
     )
   )
 
-  (gr_text "(c) 2015 by RF William Hollender (whollender@gmail.com)\nPublic license under Creative Commons CC-BY-SA-NC v4.0\nNot for Commercial Use" (at 136.398 19.812) (layer Dwgs.User)
+  (gr_text "(c) 2015 by RF William Hollender (whollender@gmail.com)\nLicensed under Creative Commons CC-BY-SA-NC v4.0\nNot for Commercial Use" (at 136.398 19.812) (layer Dwgs.User)
     (effects (font (size 1.524 1.524) (thickness 0.3048)))
   )
   (gr_text "IN A" (at 181.356 121.412) (layer F.SilkS)
