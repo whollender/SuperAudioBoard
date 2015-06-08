@@ -7,4 +7,4 @@ Almost all of the infrastructure type code (MK20DX128 startup, usb serial, etc) 
 
 The Makefile will need to be edited for your local build environment.  My libraries and toolchain are all located under "../tools", so any instances of that directory in the Makefile will need to be edited to point to your tools.
 
-I believe that all files in this directory are licensed under the MIT license, if this in error, or there is improper attribution anywhere, please let me know.
+I believe that all files in this directory are licensed under the MIT license, if this in error, or there is improper attribution anywhere, please let me know.  The intent is for the files to be freely copied in whole or in part, or used as a guideline for working with the board.
