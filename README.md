@@ -17,3 +17,4 @@ All design files are in this repo.  Here are a few quick links:
 
 
 The files under SineTestCode are example code to get the board up and running with a Teensy 3.x
+[This file](https://github.com/whollender/SuperAudioBoard/blob/master/sine_test.hex) is the compiled test code that can be downloaded directly to a Teensy for testing.
