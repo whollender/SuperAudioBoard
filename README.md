@@ -5,9 +5,13 @@ Files under SineTestCode are under MIT license, all other files licensed under C
 
 Not for commercial use.
 
+I've added an in-depth [design guide](https://github.com/whollender/SuperAudioBoard/blob/master/SuperAudioBoardDesignGuide.pdf) that walks through the design of the board. I'm currently working on a usage guide, but don't have it ready just yet.
 
-I don't have a lot of documentation written up at the moment, so the best places to start would be:
-* the [forum thread](https://forum.pjrc.com/threads/27215-24-bit-audio-boards) describing the board and its development
+A good place to start is the [Hackaday project page](https://hackaday.io/project/5912-teensy-super-audio-board).
+
+The [forum thread](https://forum.pjrc.com/threads/27215-24-bit-audio-boards) is another good place for more information.
+
+All design files are in this repo.  Here are a few quick links:
 * the [schematic](https://github.com/whollender/SuperAudioBoard/blob/master/SuperAudioBoard_Schematic.pdf)
 * the [BOM](https://github.com/whollender/SuperAudioBoard/blob/master/SuperAudioBoard_BOM.csv)
 
