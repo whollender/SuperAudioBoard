@@ -5,7 +5,7 @@ Files under SineTestCode are under MIT license, all other files licensed under C
 
 Not for commercial use.
 
-A good place to start is the [User Guide](https://github.com/whollender/SuperAudioBoard/blob/master/SuperAudioBoardDesignGuide.pdf) or the [Hackaday project page](https://hackaday.io/project/5912-teensy-super-audio-board).
+A good place to start is the [User Guide](https://github.com/whollender/SuperAudioBoard/blob/master/SuperAudioBoardUserGuide.pdf) or the [Hackaday project page](https://hackaday.io/project/5912-teensy-super-audio-board).
 
 I've added an in-depth [design guide](https://github.com/whollender/SuperAudioBoard/blob/master/SuperAudioBoardDesignGuide.pdf) that walks through the design of the board. 
 
