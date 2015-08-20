@@ -1,0 +1,17 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 8/19/2015 8:15:21 PM
+
+BeginCmp
+TimeStamp = /55D538DB;
+Reference = U101;
+ValeurCmp = TEENSY_3_1;
+IdModule  = TEENSY_3_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D53FE2;
+Reference = U102;
+ValeurCmp = RPI;
+IdModule  = RPI;
+EndCmp
+
+EndListe
