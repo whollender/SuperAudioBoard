@@ -1,4 +1,5 @@
 Files in the SineTestCode directory are mainly MIT licensed (I authored some files, some are authored by Paul Stoffregen).  See individual source code files for details.
+Files in the ExampleSketches directory are public domain.
 
 All other files are licensed under the Creative Commons CC-BY-SA-NC v4.0 license:
 

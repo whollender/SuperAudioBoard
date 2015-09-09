@@ -1,7 +1,9 @@
 # SuperAudioBoard
 High quality, 24-bit audio codec board for Teensy 3.x
 
-Files under SineTestCode are under MIT license, all other files licensed under Creative Commons CC-BY-SA-NC v4.0 (see LICENSE.md file for details).
+Files under SineTestCode are under MIT license.
+Example Arduino sketches in the "ExampleSketches" directory are public domain.
+All other files licensed under Creative Commons CC-BY-SA-NC v4.0 (see LICENSE.md file for details).
 
 Not for commercial use.
 
@@ -19,5 +21,9 @@ All design files are in this repo.  Here are a few quick links:
 
 The files under SineTestCode are example code to get the board up and running with a Teensy 3.x
 [This file](https://github.com/whollender/SuperAudioBoard/blob/master/sine_test.hex) is the compiled test code that can be downloaded directly to a Teensy for testing.
+
+I've started integrating the SuperAudioBoard with the Teensy Audio library.  The library currently only supports 16 bit modes, so the initial integration truncates the 24 bit audio samples from the codec to 16 bits for processing in the audio library.
+There is a working fork of the audio library with added SuperAudioBoard support in the [github repo](https://github.com/whollender/Audio) in the "SuperAudioBoard" branch.
+The files under the "ExampleSketches" directory are a couple of sketches that I've been using to test the board with the Audio library.
 
 The kernel fork that includes SuperAudioBoard support is at [kernel fork](https://github.com/whollender/linux).
