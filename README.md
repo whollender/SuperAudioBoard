@@ -25,5 +25,6 @@ The files under SineTestCode are example code to get the board up and running wi
 I've started integrating the SuperAudioBoard with the Teensy Audio library.  The library currently only supports 16 bit modes, so the initial integration truncates the 24 bit audio samples from the codec to 16 bits for processing in the audio library.
 There is a working fork of the audio library with added SuperAudioBoard support in the [github repo](https://github.com/whollender/Audio) in the "SuperAudioBoard" branch.
 The files under the "ExampleSketches" directory are a couple of sketches that I've been using to test the board with the Audio library.
+Note that all Audio Library objects assume a sample rate of 44.1kHz, while the SuperAudioBoard only supports 48kHz in the audio library (for now, 96/192kHz rates are also possible).  In order to account for the difference between the library sample rate and the actual sample rate, the frequencies used in a sketch should be modified for the actual sample rate.  See the example sketches for details.
 
 The kernel fork that includes SuperAudioBoard support is at [kernel fork](https://github.com/whollender/linux).

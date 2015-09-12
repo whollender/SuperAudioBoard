@@ -21,12 +21,19 @@ AudioControlCS4272       AudioBoard;     //xy=365,320
 
 #define CS4272_ADDR 0x10
 
+// This is the actual sample rate with the SuperAudioBoard
+#define ACTUAL_SAMPLE_RATE 48000
+
 void setup()
 {
   AudioMemory(10);
   AudioBoard.enable();
+
+  // Want to set a frequency of 1kHz, but need to account for the difference
+  // between the sample rate assumed by the library object (AUDIO_SAMPLE_RATE_EXACT)
+  // and the actual sample rate.
+  sine1.frequency(1000 * AUDIO_SAMPLE_RATE_EXACT / ACTUAL_SAMPLE_RATE);
   sine1.amplitude(0.5);
-  sine1.frequency(1000);
 
 }
 
