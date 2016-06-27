@@ -1,0 +1,126 @@
+##############################################################
+#
+# Xilinx Core Generator version 14.7
+# Date: Mon Jun 27 03:32:48 2016
+#
+##############################################################
+#
+#  This file contains the customisation parameters for a
+#  Xilinx CORE Generator IP GUI. It is strongly recommended
+#  that you do not manually alter this file as it may cause
+#  unexpected and unsupported behavior.
+#
+##############################################################
+#
+#  Generated from component: xilinx.com:ip:microblaze_mcs:1.4
+#
+##############################################################
+#
+# BEGIN Project Options
+SET addpads = false
+SET asysymbol = true
+SET busformat = BusFormatAngleBracketNotRipped
+SET createndf = false
+SET designentry = Verilog
+SET device = xc6slx9
+SET devicefamily = spartan6
+SET flowvendor = Other
+SET formalverification = false
+SET foundationsym = false
+SET implementationfiletype = Ngc
+SET package = csg324
+SET removerpms = false
+SET simulationfiles = Behavioral
+SET speedgrade = -2
+SET verilogsim = true
+SET vhdlsim = false
+# END Project Options
+# BEGIN Select
+SELECT MicroBlaze_MCS xilinx.com:ip:microblaze_mcs:1.4
+# END Select
+# BEGIN Parameters
+CSET component_name=microblaze_mcs_v1_4_0
+CSET debug_enabled=true
+CSET fit1_interrupt=false
+CSET fit1_no_clocks=6216
+CSET fit2_interrupt=false
+CSET fit2_no_clocks=6216
+CSET fit3_interrupt=false
+CSET fit3_no_clocks=6216
+CSET fit4_interrupt=false
+CSET fit4_no_clocks=6216
+CSET freq=100.0
+CSET gpi1_interrupt=None
+CSET gpi1_size=32
+CSET gpi2_interrupt=None
+CSET gpi2_size=32
+CSET gpi3_interrupt=None
+CSET gpi3_size=32
+CSET gpi4_interrupt=None
+CSET gpi4_size=32
+CSET gpo1_init=0x00000000
+CSET gpo1_size=32
+CSET gpo2_init=0x00000000
+CSET gpo2_size=32
+CSET gpo3_init=0x00000000
+CSET gpo3_size=32
+CSET gpo4_init=0x00000000
+CSET gpo4_size=32
+CSET intc_intr_size=1
+CSET intc_level_edge=0x0000
+CSET intc_positive=0xFFFF
+CSET intc_use_ext_intr=false
+CSET jtag_chain=USER2
+CSET memsize=64KB
+CSET microblaze_instance=microblaze_mcs_v1_4
+CSET path=mcs_0
+CSET pit1_interrupt=false
+CSET pit1_prescaler=None
+CSET pit1_readable=true
+CSET pit1_size=32
+CSET pit2_interrupt=false
+CSET pit2_prescaler=None
+CSET pit2_readable=true
+CSET pit2_size=32
+CSET pit3_interrupt=false
+CSET pit3_prescaler=None
+CSET pit3_readable=true
+CSET pit3_size=32
+CSET pit4_interrupt=false
+CSET pit4_prescaler=None
+CSET pit4_readable=true
+CSET pit4_size=32
+CSET trace=false
+CSET uart_baudrate=115200
+CSET uart_data_bits=8
+CSET uart_error_interrupt=false
+CSET uart_odd_parity=Even
+CSET uart_prog_baudrate=false
+CSET uart_rx_interrupt=false
+CSET uart_tx_interrupt=false
+CSET uart_use_parity=false
+CSET use_fit1=false
+CSET use_fit2=false
+CSET use_fit3=false
+CSET use_fit4=false
+CSET use_gpi1=false
+CSET use_gpi2=false
+CSET use_gpi3=false
+CSET use_gpi4=false
+CSET use_gpo1=true
+CSET use_gpo2=false
+CSET use_gpo3=false
+CSET use_gpo4=false
+CSET use_io_bus=true
+CSET use_pit1=true
+CSET use_pit2=false
+CSET use_pit3=false
+CSET use_pit4=false
+CSET use_uart_rx=true
+CSET use_uart_tx=true
+# END Parameters
+# BEGIN Extra information
+MISC pkg_timestamp=2012-11-21T08:11:43Z
+# END Extra information
+GENERATE
+# CRC: 3abe1ead

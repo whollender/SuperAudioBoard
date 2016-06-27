@@ -1,0 +1,3 @@
+# Constraints for BCLK
+NET "PMOD1_P1" period = 700 ns high 50 %;
+NET "PMOD1_P1" CLOCK_DEDICATED_ROUTE = FALSE;
