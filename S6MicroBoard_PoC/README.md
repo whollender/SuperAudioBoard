@@ -1,4 +1,5 @@
-Instructions for running code on Spartan 6 Microboard using ISE 14.7:
+# Instructions for running code on Spartan 6 Microboard using ISE 14.7:
+
 	1. In Planahead
 		a. Start new project
 			i. Choose part "xc6slx9csg324-2"
