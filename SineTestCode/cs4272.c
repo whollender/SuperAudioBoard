@@ -28,7 +28,7 @@
 
 
 // Setup I2C address for codec
-#define CODEC_ADDR 0x10 // TODO: need to double check
+#define CODEC_ADDR 0x10 
 
 
 void codec_write(uint8_t reg, uint8_t data)
@@ -101,12 +101,11 @@ void codec_init()
 	delay(1);
 
 	// Set ratio select for MCLK=512*LRCLK (BCLK = 64*LRCLK), and master mode
-	codec_write(CODEC_MODE_CONTROL, CODEC_MC_RATIO_SEL(3) | CODEC_MC_MASTER_SLAVE);
+	codec_write(CODEC_MODE_CONTROL, CODEC_MC_RATIO_SEL(2) | CODEC_MC_MASTER_SLAVE);
 
 	delay(10);
 	
 	// Release power down bit to start up codec
-	// TODO: May need other bits set in this reg
 	codec_write(CODEC_MODE_CTRL2, CODEC_MODE_CTRL2_CTRL_PORT_EN);
 	
 	// Wait for everything to come up
