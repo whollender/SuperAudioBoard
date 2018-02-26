@@ -27,4 +27,4 @@ There is a working fork of the audio library with added SuperAudioBoard support 
 The files under the "ExampleSketches" directory are a couple of sketches that I've been using to test the board with the Audio library.
 Note that all Audio Library objects assume a sample rate of 44.1kHz, while the SuperAudioBoard only supports 48kHz in the audio library (for now, 96/192kHz rates are also possible).  In order to account for the difference between the library sample rate and the actual sample rate, the frequencies used in a sketch should be modified for the actual sample rate.  See the example sketches for details.
 
-The kernel fork that includes SuperAudioBoard support is at [kernel fork](https://github.com/whollender/linux).
+The device tree overlay required to use the board with a Raspberry Pi is now included in the 'rpi-update' release, so no kernel building is required.  See the user guide for more details on setting up the Raspberry Pi for SuperAudioBoard support.
